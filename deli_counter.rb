@@ -35,6 +35,8 @@ def now_serving(array)
   end
 end
 
+
+deli_line = ["Melissa", "Howard"]
 binding.pry
 
 # def line(array)
