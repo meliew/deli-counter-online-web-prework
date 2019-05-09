@@ -2,7 +2,11 @@ require 'pry'
 
 katz_deli = []
 
-def line(array)
+# instead of names, just use numbers 
+# the current line is [734, 735]
+
+
+def line
   if array.empty?
     puts "The line is currently empty."
   else
@@ -16,7 +20,7 @@ def line(array)
   end
 end
 
-def take_a_number(array, customer)
+def take_a_number
   if array.empty?
     array.push customer
     puts "Welcome, #{customer}. You are number 1 in line."
@@ -27,7 +31,7 @@ def take_a_number(array, customer)
   end
 end
 
-def now_serving(array)
+def now_serving
   if array.empty?
     puts "There is nobody waiting to be served!"
   else
