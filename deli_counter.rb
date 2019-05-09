@@ -22,12 +22,12 @@ def line
 end
 
 def take_a_number
-  if array.empty?
-    array.push customer
+  if $array.empty?
+    $array.push customer
     puts "Welcome, #{customer}. You are number 1 in line."
   else
-    array.push customer
-    counter = array.length
+    $array.push customer
+    counter = $array.length
     puts message = "Welcome, #{customer}. You are number #{counter} in line."
   end
 end
