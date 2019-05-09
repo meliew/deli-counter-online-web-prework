@@ -8,12 +8,12 @@ katz_deli = []
 $array = [734, 735]
 
 def line
-  if array.empty?
+  if $array.empty?
     puts "The line is currently empty."
   else
     message = "The line is currently:"
 
-    array.each_with_index do |customer, i|
+    $array.each_with_index do |customer, i|
       message += " #{i + 1}. #{customer}"
     end
 
