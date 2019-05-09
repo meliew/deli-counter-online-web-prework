@@ -5,6 +5,7 @@ katz_deli = []
 # instead of names, just use numbers
 # the current line is [734, 735]
 
+array = [734, 735]
 
 def line
   if array.empty?
