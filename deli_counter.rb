@@ -2,7 +2,7 @@ require 'pry'
 
 katz_deli = []
 
-# instead of names, just use numbers 
+# instead of names, just use numbers
 # the current line is [734, 735]
 
 
